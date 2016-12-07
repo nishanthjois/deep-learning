@@ -1,0 +1,6 @@
+Feature extraction is another procedure that is susceptible to data leakage. Like data preparation, feature extraction procedures must be restricted to the data in your training dataset. The pipeline provides a handy tool called the FeatureUnion which allows the results of multiple feature selection and extraction procedures to be combined into a larger dataset on which a model can be trained. Importantly, all the feature extraction and the feature union occurs within each fold of the cross validation procedure. The example below demonstrates the pipeline defined with four steps:
+Feature Extraction with Principal Component Analysis (3 features).
+Feature Extraction with Statistical Selection (6 features).
+Feature Union.
+Learn a Logistic Regression Model.
+The pipeline is then evaluated using 10-fold cross validation.
