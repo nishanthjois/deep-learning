@@ -1,0 +1,1 @@
+RNN-LSTM model to predict stock price of Google/HDFC (using opening price) with Keras. 
