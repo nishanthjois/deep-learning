@@ -1,0 +1,2 @@
+In this project we will use MNIST data set, train it using tensorflow and save the results (results saved will be in a format which can used to load in Android projects)
+TODO: Develop an android project)
